@@ -15,7 +15,7 @@ An end-to-end pipeline for **brain tumor classification** using a **hybrid CNN�
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 This project uses the **[Kaggle Brain Tumor MRI Dataset](https://www.kaggle.com/datasets)**
 
@@ -106,10 +106,10 @@ python main.py --cmd gradcam --data_root ./dataset --weights outputs/saved_model
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
-- 🔬 Add advanced Transformer variants (e.g., Swin, ViT)
-- ⚙️ Hyperparameter tuning for better performance
-- 🧩 Multi-class explainability with Grad-CAM++
+-  Add advanced Transformer variants (e.g., Swin, ViT)
+-  Hyperparameter tuning for better performance
+-  Multi-class explainability with Grad-CAM++
 
 ---
