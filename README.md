@@ -1,17 +1,17 @@
-# 🧠 Brain Tumor Classification with Hybrid CNN + Transformer + SAM
+#  Brain Tumor Classification with Hybrid CNN + Transformer + SAM
 
 An end-to-end pipeline for **brain tumor classification** using a **hybrid CNN–Transformer architecture**, trained with the **Sharpness-Aware Minimization (SAM) optimizer** for improved generalization.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📦 Custom dataset loading with **`tf.data`** and **Albumentations**
-- 🖼️ Advanced augmentations: CLAHE, flips, rotations, brightness/contrast
-- 🧠 Hybrid CNN + Transformer architecture for rich feature learning
-- ⚡ SAM optimizer for sharper minima & better generalization
-- 🔍 Explainability via Grad-CAM heatmaps
-- 🖥️ Compatible with local setups and Kaggle GPUs
+-  Custom dataset loading with **`tf.data`** and **Albumentations**
+-  Advanced augmentations: CLAHE, flips, rotations, brightness/contrast
+-  Hybrid CNN + Transformer architecture for rich feature learning
+-  SAM optimizer for sharper minima & better generalization
+-  Explainability via Grad-CAM heatmaps
+- 🖥 Compatible with local setups and Kaggle GPUs
 
 ---
 
@@ -42,7 +42,7 @@ no_tumor/
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```yaml
 project/
@@ -70,7 +70,7 @@ project/
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### 1. Install dependencies
 
@@ -98,11 +98,11 @@ python main.py --cmd gradcam --data_root ./dataset --weights outputs/saved_model
 
 ---
 
-## 📝 Notes
+## Notes
 
-- ✅ Augmentations include **random CLAHE** for contrast enhancement
-- ✅ Models are saved in both **`.weights.h5`** and **`.keras`** formats
-- ✅ Training works on **local machines** and **Kaggle GPUs**
+-  Augmentations include **random CLAHE** for contrast enhancement
+-  Models are saved in both **`.weights.h5`** and **`.keras`** formats
+-  Training works on **local machines** and **Kaggle GPUs**
 
 ---
 
