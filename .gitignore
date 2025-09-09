@@ -1,0 +1,41 @@
+---
+
+## 📄 `.gitignore`
+Here’s a `.gitignore` that:  
+- ignores Python cache, virtual environments, outputs, and dataset artifacts  
+- specifically ignores **PDF files**  
+
+```gitignore
+# Python
+Brain_Tumor.ipynb
+Brain_Tumor.py
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+brain_env/
+.venv/
+venv/
+env/
+
+# Outputs
+result_1_epoch/
+outputs/
+*.h5
+*.keras
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets
+brain_tumor_dataset/
+dataset/
+*.zip
+
+# Ignore PDFs
+paper/
+*.pdf
+
